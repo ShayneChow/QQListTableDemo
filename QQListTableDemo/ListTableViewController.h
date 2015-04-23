@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ListTableViewController.h
 //  QQListTableDemo
 //
 //  Created by ChowShayne on 15/4/24.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ListTableViewController : UITableViewController
 
 @end
-

@@ -9,11 +9,10 @@
 /* Begin PBXBuildFile section */
 		267C10DB1AE952880054CAA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10DA1AE952880054CAA3 /* main.m */; };
 		267C10DE1AE952880054CAA3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10DD1AE952880054CAA3 /* AppDelegate.m */; };
-		267C10E11AE952880054CAA3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10E01AE952880054CAA3 /* ViewController.m */; };
-		267C10E41AE952880054CAA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267C10E21AE952880054CAA3 /* Main.storyboard */; };
 		267C10E61AE952880054CAA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267C10E51AE952880054CAA3 /* Images.xcassets */; };
 		267C10E91AE952880054CAA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267C10E71AE952880054CAA3 /* LaunchScreen.xib */; };
 		267C10F51AE952880054CAA3 /* QQListTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10F41AE952880054CAA3 /* QQListTableDemoTests.m */; };
+		267C11001AE9562D0054CAA3 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10FF1AE9562D0054CAA3 /* ListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +31,13 @@
 		267C10DA1AE952880054CAA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		267C10DC1AE952880054CAA3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		267C10DD1AE952880054CAA3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		267C10DF1AE952880054CAA3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		267C10E01AE952880054CAA3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		267C10E31AE952880054CAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		267C10E51AE952880054CAA3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		267C10E81AE952880054CAA3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		267C10EE1AE952880054CAA3 /* QQListTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQListTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C10F31AE952880054CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267C10F41AE952880054CAA3 /* QQListTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQListTableDemoTests.m; sourceTree = "<group>"; };
+		267C10FE1AE9562D0054CAA3 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewController.h; path = ../ListTableViewController.h; sourceTree = "<group>"; };
+		267C10FF1AE9562D0054CAA3 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewController.m; path = ../ListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,11 +79,9 @@
 		267C10D71AE952880054CAA3 /* QQListTableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				267C11011AE956550054CAA3 /* Controller */,
 				267C10DC1AE952880054CAA3 /* AppDelegate.h */,
 				267C10DD1AE952880054CAA3 /* AppDelegate.m */,
-				267C10DF1AE952880054CAA3 /* ViewController.h */,
-				267C10E01AE952880054CAA3 /* ViewController.m */,
-				267C10E21AE952880054CAA3 /* Main.storyboard */,
 				267C10E51AE952880054CAA3 /* Images.xcassets */,
 				267C10E71AE952880054CAA3 /* LaunchScreen.xib */,
 				267C10D81AE952880054CAA3 /* Supporting Files */,
@@ -117,6 +113,15 @@
 				267C10F31AE952880054CAA3 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267C11011AE956550054CAA3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				267C10FE1AE9562D0054CAA3 /* ListTableViewController.h */,
+				267C10FF1AE9562D0054CAA3 /* ListTableViewController.m */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +204,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267C10E41AE952880054CAA3 /* Main.storyboard in Resources */,
 				267C10E91AE952880054CAA3 /* LaunchScreen.xib in Resources */,
 				267C10E61AE952880054CAA3 /* Images.xcassets in Resources */,
 			);
@@ -219,9 +223,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				267C10E11AE952880054CAA3 /* ViewController.m in Sources */,
 				267C10DE1AE952880054CAA3 /* AppDelegate.m in Sources */,
 				267C10DB1AE952880054CAA3 /* main.m in Sources */,
+				267C11001AE9562D0054CAA3 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,14 +248,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		267C10E21AE952880054CAA3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				267C10E31AE952880054CAA3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		267C10E71AE952880054CAA3 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
