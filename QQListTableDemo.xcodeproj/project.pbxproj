@@ -40,8 +40,8 @@
 		267C10EE1AE952880054CAA3 /* QQListTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQListTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C10F31AE952880054CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267C10F41AE952880054CAA3 /* QQListTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQListTableDemoTests.m; sourceTree = "<group>"; };
-		267C11041AE95A470054CAA3 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
-		267C11051AE95A470054CAA3 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		267C11041AE95A470054CAA3 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewController.h; path = ../ListTableViewController.h; sourceTree = "<group>"; };
+		267C11051AE95A470054CAA3 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewController.m; path = ../ListTableViewController.m; sourceTree = "<group>"; };
 		267C11071AE95AC30054CAA3 /* GroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupModel.h; sourceTree = "<group>"; };
 		267C11081AE95AC30054CAA3 /* GroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupModel.m; sourceTree = "<group>"; };
 		267C110A1AE95ADE0054CAA3 /* FriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsModel.h; sourceTree = "<group>"; };
@@ -69,6 +69,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		265A9AF01AEA2FBD004387AF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				267C11041AE95A470054CAA3 /* ListTableViewController.h */,
+				267C11051AE95A470054CAA3 /* ListTableViewController.m */,
+			);
+			name = Controller;
+			path = Controller/Controller;
+			sourceTree = "<group>";
+		};
 		267C10CC1AE952880054CAA3 = {
 			isa = PBXGroup;
 			children = (
@@ -92,7 +102,7 @@
 			children = (
 				267C11021AE959C30054CAA3 /* Model */,
 				267C11031AE959CA0054CAA3 /* View */,
-				267C11011AE956550054CAA3 /* Controller */,
+				265A9AF01AEA2FBD004387AF /* Controller */,
 				267C10DC1AE952880054CAA3 /* AppDelegate.h */,
 				267C10DD1AE952880054CAA3 /* AppDelegate.m */,
 				267C10E51AE952880054CAA3 /* Images.xcassets */,
@@ -127,15 +137,6 @@
 				267C10F31AE952880054CAA3 /* Info.plist */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		267C11011AE956550054CAA3 /* Controller */ = {
-			isa = PBXGroup;
-			children = (
-				267C11041AE95A470054CAA3 /* ListTableViewController.h */,
-				267C11051AE95A470054CAA3 /* ListTableViewController.m */,
-			);
-			path = Controller;
 			sourceTree = "<group>";
 		};
 		267C11021AE959C30054CAA3 /* Model */ = {
@@ -452,6 +453,7 @@
 				267C10FA1AE952880054CAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		267C10FB1AE952880054CAA3 /* Build configuration list for PBXNativeTarget "QQListTableDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -460,6 +462,7 @@
 				267C10FD1AE952880054CAA3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
