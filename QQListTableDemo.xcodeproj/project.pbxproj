@@ -12,7 +12,11 @@
 		267C10E61AE952880054CAA3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 267C10E51AE952880054CAA3 /* Images.xcassets */; };
 		267C10E91AE952880054CAA3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 267C10E71AE952880054CAA3 /* LaunchScreen.xib */; };
 		267C10F51AE952880054CAA3 /* QQListTableDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10F41AE952880054CAA3 /* QQListTableDemoTests.m */; };
-		267C11001AE9562D0054CAA3 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C10FF1AE9562D0054CAA3 /* ListTableViewController.m */; };
+		267C11061AE95A470054CAA3 /* ListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C11051AE95A470054CAA3 /* ListTableViewController.m */; };
+		267C11091AE95AC30054CAA3 /* GroupModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C11081AE95AC30054CAA3 /* GroupModel.m */; };
+		267C110C1AE95ADE0054CAA3 /* FriendsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C110B1AE95ADE0054CAA3 /* FriendsModel.m */; };
+		267C110E1AE95B610054CAA3 /* friends.plist in Resources */ = {isa = PBXBuildFile; fileRef = 267C110D1AE95B610054CAA3 /* friends.plist */; };
+		267C11111AE9EE2A0054CAA3 /* SectionHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267C11101AE9EE2A0054CAA3 /* SectionHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,8 +40,15 @@
 		267C10EE1AE952880054CAA3 /* QQListTableDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQListTableDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		267C10F31AE952880054CAA3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		267C10F41AE952880054CAA3 /* QQListTableDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQListTableDemoTests.m; sourceTree = "<group>"; };
-		267C10FE1AE9562D0054CAA3 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ListTableViewController.h; path = ../ListTableViewController.h; sourceTree = "<group>"; };
-		267C10FF1AE9562D0054CAA3 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ListTableViewController.m; path = ../ListTableViewController.m; sourceTree = "<group>"; };
+		267C11041AE95A470054CAA3 /* ListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewController.h; sourceTree = "<group>"; };
+		267C11051AE95A470054CAA3 /* ListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewController.m; sourceTree = "<group>"; };
+		267C11071AE95AC30054CAA3 /* GroupModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupModel.h; sourceTree = "<group>"; };
+		267C11081AE95AC30054CAA3 /* GroupModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupModel.m; sourceTree = "<group>"; };
+		267C110A1AE95ADE0054CAA3 /* FriendsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsModel.h; sourceTree = "<group>"; };
+		267C110B1AE95ADE0054CAA3 /* FriendsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsModel.m; sourceTree = "<group>"; };
+		267C110D1AE95B610054CAA3 /* friends.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = friends.plist; sourceTree = "<group>"; };
+		267C110F1AE9EE2A0054CAA3 /* SectionHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionHeaderView.h; sourceTree = "<group>"; };
+		267C11101AE9EE2A0054CAA3 /* SectionHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +90,8 @@
 		267C10D71AE952880054CAA3 /* QQListTableDemo */ = {
 			isa = PBXGroup;
 			children = (
+				267C11021AE959C30054CAA3 /* Model */,
+				267C11031AE959CA0054CAA3 /* View */,
 				267C11011AE956550054CAA3 /* Controller */,
 				267C10DC1AE952880054CAA3 /* AppDelegate.h */,
 				267C10DD1AE952880054CAA3 /* AppDelegate.m */,
@@ -92,6 +105,7 @@
 		267C10D81AE952880054CAA3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				267C110D1AE95B610054CAA3 /* friends.plist */,
 				267C10D91AE952880054CAA3 /* Info.plist */,
 				267C10DA1AE952880054CAA3 /* main.m */,
 			);
@@ -118,11 +132,33 @@
 		267C11011AE956550054CAA3 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				267C10FE1AE9562D0054CAA3 /* ListTableViewController.h */,
-				267C10FF1AE9562D0054CAA3 /* ListTableViewController.m */,
+				267C11041AE95A470054CAA3 /* ListTableViewController.h */,
+				267C11051AE95A470054CAA3 /* ListTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
+		};
+		267C11021AE959C30054CAA3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				267C11071AE95AC30054CAA3 /* GroupModel.h */,
+				267C11081AE95AC30054CAA3 /* GroupModel.m */,
+				267C110A1AE95ADE0054CAA3 /* FriendsModel.h */,
+				267C110B1AE95ADE0054CAA3 /* FriendsModel.m */,
+			);
+			name = Model;
+			path = ../QQListTableDemo.xcodeproj/QQListTableDemo/Model;
+			sourceTree = "<group>";
+		};
+		267C11031AE959CA0054CAA3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				267C110F1AE9EE2A0054CAA3 /* SectionHeaderView.h */,
+				267C11101AE9EE2A0054CAA3 /* SectionHeaderView.m */,
+			);
+			name = View;
+			path = QQListTableDemo.xcodeproj/QQListTableDemo/View;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -206,6 +242,7 @@
 			files = (
 				267C10E91AE952880054CAA3 /* LaunchScreen.xib in Resources */,
 				267C10E61AE952880054CAA3 /* Images.xcassets in Resources */,
+				267C110E1AE95B610054CAA3 /* friends.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,8 +261,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				267C10DE1AE952880054CAA3 /* AppDelegate.m in Sources */,
+				267C11111AE9EE2A0054CAA3 /* SectionHeaderView.m in Sources */,
+				267C110C1AE95ADE0054CAA3 /* FriendsModel.m in Sources */,
+				267C11091AE95AC30054CAA3 /* GroupModel.m in Sources */,
 				267C10DB1AE952880054CAA3 /* main.m in Sources */,
-				267C11001AE9562D0054CAA3 /* ListTableViewController.m in Sources */,
+				267C11061AE95A470054CAA3 /* ListTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

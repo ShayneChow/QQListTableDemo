@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>name</key>
-		<string>好丽友</string>
+		<string>好友</string>
 		<key>online</key>
 		<string>3</string>
 		<key>friends</key>
@@ -106,7 +106,7 @@
 			</dict>
 		</array>
 		<key>name</key>
-		<string>卡西莫多的礼物</string>
+		<string>基情</string>
 		<key>online</key>
 		<integer>0</integer>
 	</dict>
@@ -175,7 +175,7 @@
 			</dict>
 		</array>
 		<key>name</key>
-		<string>励志</string>
+		<string>坑爹</string>
 		<key>online</key>
 		<integer>1</integer>
 	</dict>
@@ -198,7 +198,7 @@
 				<key>intro</key>
 				<string>万万没想到</string>
 				<key>name</key>
-				<string>极客1</string>
+				<string>哼哈</string>
 				<key>vip</key>
 				<integer>1</integer>
 			</dict>
@@ -206,25 +206,25 @@
 				<key>icon</key>
 				<string>004.png</string>
 				<key>intro</key>
-				<string>极客极客</string>
+				<string>我就是帅哥</string>
 				<key>name</key>
-				<string>极客3</string>
+				<string>哈哼</string>
 				<key>vip</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>icon</key>
 				<string>008.png</string>
 				<key>intro</key>
-				<string>极客极客3</string>
+				<string>二狗就是我</string>
 				<key>name</key>
-				<string>极客</string>
+				<string>二狗</string>
 				<key>vip</key>
 				<integer>1</integer>
 			</dict>
 		</array>
 		<key>name</key>
-		<string>极客学院</string>
+		<string>同学</string>
 		<key>online</key>
 		<integer>11</integer>
 	</dict>
@@ -383,7 +383,7 @@
 			</dict>
 		</array>
 		<key>name</key>
-		<string>末路青春</string>
+		<string>大学</string>
 		<key>online</key>
 		<integer>19</integer>
 	</dict>
@@ -509,7 +509,7 @@
 			</dict>
 		</array>
 		<key>name</key>
-		<string>再回首</string>
+		<string>激情</string>
 		<key>online</key>
 		<integer>3</integer>
 	</dict>
@@ -628,7 +628,7 @@
 			</dict>
 		</array>
 		<key>name</key>
-		<string>可爱的人</string>
+		<string>现在</string>
 		<key>online</key>
 		<integer>6</integer>
 	</dict>
@@ -641,9 +641,9 @@
 				<key>intro</key>
 				<string>星空</string>
 				<key>name</key>
-				<string>主唱大人</string>
+				<string>阿信</string>
 				<key>vip</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>icon</key>
@@ -687,7 +687,7 @@
 			</dict>
 		</array>
 		<key>name</key>
-		<string>五月天</string>
+		<string>其他</string>
 		<key>online</key>
 		<integer>2</integer>
 	</dict>
