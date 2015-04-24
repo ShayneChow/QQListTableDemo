@@ -35,7 +35,7 @@
         button.titleEdgeInsets = UIEdgeInsetsMake(0, 10, 0, 0);
         button.imageView.contentMode = UIViewContentModeCenter;
         [button addTarget:self action:@selector(buttonAction) forControlEvents:UIControlEventTouchUpInside];
-        button.imageView.clipsToBounds = NO;
+        button.imageView.clipsToBounds = NO; // 不裁剪图片, btn旋转时图片大小不变，针对didMoveToSuperview方法
         _arrowBtn = button;
         [self addSubview:_arrowBtn];
         //创建label，显示当前在线人数
@@ -53,6 +53,10 @@
     if ([self.delegate respondsToSelector:@selector(clickView)]) {
         [self.delegate clickView];
     }
+}
+
+- (void)didMoveToSuperview{
+    _arrowBtn.imageView.transform = self.groupModel.isOpen ? CGAffineTransformMakeRotation(M_PI_2) :CGAffineTransformMakeRotation(0);
 }
 
 //布局

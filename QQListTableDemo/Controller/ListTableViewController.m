@@ -10,6 +10,7 @@
 #import "GroupModel.h"
 #import "FriendsModel.h"
 #import "SectionHeaderView.h"
+#import "DetailViewController.h"
 
 @interface ListTableViewController ()<HeaderViewDelegate>
 
@@ -80,6 +81,11 @@
     header.delegate = self;
     header.groupModel = self.dataArray[section];
     return header;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    DetailViewController *cellDetail = [[DetailViewController alloc] init];
+    [self.navigationController pushViewController:cellDetail animated:NO];
 }
 
 - (void)clickView{
